@@ -1,12 +1,16 @@
-# inkit-java
+package com.inkit.sdk;
 
+import com.inkit.sdk.models.Render;
+import java.util.Map;
+import java.util.HashMap;
 
+public class Main {
 
-sample
+    public static void main(String[] args) {
 
+        
 
-```java
-Map<String, Object> params = new HashMap<>();
+        Map<String, Object> params = new HashMap<>();
         params.put("name", "java sdk test");
         params.put("html", "<html>hello there {{fname}}</html>");
         params.put("height", 11);
@@ -25,4 +29,7 @@ Map<String, Object> params = new HashMap<>();
         } catch (Exception e) {
             System.out.println(e);
         }
-```
+        
+    }
+    
+}
